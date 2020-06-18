@@ -20,6 +20,7 @@ func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options conn
 }
 ```
 - Run to test 
+- I like to keep the launchscreen.storyboard so I can just click and drag some stuff there.
 💻💯
 
 ### Step 2
