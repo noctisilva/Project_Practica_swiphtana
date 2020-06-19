@@ -38,6 +38,7 @@ class NetworkingCustom: NSObject {
                 print("Error with the response, unexpected status code: \(response)")
                 return
             }
+            
             if let data = data {
                 let response = try! JSONDecoder().decode(Response.self, from: data)
                 let nested = response.businesses ?? []
