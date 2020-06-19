@@ -13,9 +13,9 @@ class MainViewModel: NSObject {
         let tableView = UITableView()
         tableView.translatesAutoresizingMaskIntoConstraints = false
         tableView.isScrollEnabled = true
-        tableView.isEditing = true
+        tableView.isEditing = false
         tableView.clipsToBounds = true
-        tableView.separatorStyle = .none
+//        tableView.separatorStyle = .none
         tableView.contentInset = UIEdgeInsets(top: 0, left: -13, bottom: 0, right: 0)
         tableView.flashScrollIndicators()
         tableView.backgroundColor = .white
@@ -31,5 +31,13 @@ class MainViewModel: NSObject {
         image.contentMode = .scaleAspectFill
         image.isUserInteractionEnabled = false
         return image
+    }()
+    
+    var name: UILabel = {
+        let name = UILabel()
+        name.font = UIFont(name: "Montserrat", size: 10)
+        name.textColor = .black
+        name.translatesAutoresizingMaskIntoConstraints = false
+        return name
     }()
 }
