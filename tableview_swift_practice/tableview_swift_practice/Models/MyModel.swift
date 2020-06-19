@@ -42,3 +42,7 @@ struct Location: Codable {
         case state
     }
 }
+
+class PlayData {
+    var allWords = [String]()
+}

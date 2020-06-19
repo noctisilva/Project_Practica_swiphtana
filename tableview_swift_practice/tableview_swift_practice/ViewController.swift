@@ -57,6 +57,7 @@ class ViewController: UIViewController {
         myModel.mainTableView.register(BusinessCell.self, forCellReuseIdentifier: "BusinessCell")
         myModel.mainTableView.dataSource = self
         myModel.mainTableView.delegate = self
+//        myModel.mainTableView.alpha = 0
         NSLayoutConstraint.activate([
             myModel.mainTableView.widthAnchor.constraint(equalToConstant: UIScreen.main.bounds.width),
             myModel.mainTableView.centerXAnchor.constraint(equalTo: self.view.centerXAnchor),
@@ -80,7 +81,8 @@ extension ViewController: UITableViewDelegate,UITableViewDataSource {
         }
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "BusinessCell") as! BusinessCell
-        cell.model.name.text = "\(indexPath.row): \(self.businesses[indexPath.row].name ?? "")"
+        
+        cell.bind(self.businesses[indexPath.row])
         return cell
     }
     

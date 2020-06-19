@@ -40,4 +40,16 @@ class MainViewObject: NSObject {
         name.translatesAutoresizingMaskIntoConstraints = false
         return name
     }()
+    
+    var businessImg: UIImageView = {
+        let image = UIImageView()
+        image.image = nil
+        image.translatesAutoresizingMaskIntoConstraints = false
+        image.clipsToBounds = true
+        image.layer.masksToBounds = true
+        image.contentMode = .scaleAspectFill
+        image.isUserInteractionEnabled = false
+        image.backgroundColor = .blue
+        return image
+    }()
 }
