@@ -81,7 +81,7 @@ extension ViewController: UITableViewDelegate,UITableViewDataSource {
         }
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "BusinessCell") as! BusinessCell
-        cell.business = self.businesses[indexPath.row]
+        
         cell.bind(self.businesses[indexPath.row])
         return cell
     }
