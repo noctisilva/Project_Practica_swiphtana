@@ -9,27 +9,27 @@
 import UIKit
 class ViewController: UIViewController {
 
-    var myModel = MainViewModel()
+    var myModel = MainViewObject()
     private var businesses: [Business] = []
     var totalOffset = 0
-    
+    var searchItem = "metlife+building"
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
         self.view.backgroundColor = .blue
-        getData(totalOffset)
-
+        getData(searchItem: searchItem, totalOffset)
+        setupView()
     }
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-        setupView()
+        
     }
     
-    func getData(_ offset: Int?) {
-        NetworkingCustom().fetchBusinesses(offset: offset){ (result) in
-            self.businesses = (self.businesses ?? []) + result
+    func getData(searchItem: String, _ offset: Int?) {
+        NetworkingCustom().fetchBusinesses(searchItem: searchItem, offset: offset){ (result) in
+            self.businesses = self.businesses + result
             DispatchQueue.main.async{
               self.myModel.mainTableView.reloadData()
             }
@@ -37,7 +37,6 @@ class ViewController: UIViewController {
     }
     
     func setupView(){
-        
         
         self.view.addSubview(myModel.bgImg)
         if let imgURL = URL(string: "https://i.redd.it/hwauujmfjm051.png") {
@@ -74,10 +73,10 @@ extension ViewController: UITableViewDelegate,UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let count = (self.businesses.count ) - 1
+        let count = self.businesses.count - 1
         if indexPath.row == count { // last cell
             totalOffset += indexPath.row
-            getData(totalOffset)
+            getData(searchItem: searchItem, totalOffset)
         }
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "BusinessCell") as! BusinessCell

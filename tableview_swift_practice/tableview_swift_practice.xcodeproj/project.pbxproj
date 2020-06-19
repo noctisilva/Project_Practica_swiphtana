@@ -16,7 +16,7 @@
 		5989CE572499D26C007F1459 /* tableview_swift_practiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5989CE562499D26C007F1459 /* tableview_swift_practiceUITests.swift */; };
 		5989CE69249AD60C007F1459 /* NetworkingCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5989CE68249AD60C007F1459 /* NetworkingCustom.swift */; };
 		5989CE6B249ADBB8007F1459 /* MyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5989CE6A249ADBB8007F1459 /* MyModel.swift */; };
-		5989CE6D249ADCA3007F1459 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5989CE6C249ADCA3007F1459 /* MainViewModel.swift */; };
+		5989CE6D249ADCA3007F1459 /* MainViewObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5989CE6C249ADCA3007F1459 /* MainViewObject.swift */; };
 		5989CE6F249B005C007F1459 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5989CE6E249B005C007F1459 /* Extensions.swift */; };
 		59C7DAD4249C44140022525F /* BusinessCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C7DAD3249C44140022525F /* BusinessCell.swift */; };
 /* End PBXBuildFile section */
@@ -54,7 +54,7 @@
 		5989CE582499D26C007F1459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5989CE68249AD60C007F1459 /* NetworkingCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingCustom.swift; sourceTree = "<group>"; };
 		5989CE6A249ADBB8007F1459 /* MyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModel.swift; sourceTree = "<group>"; };
-		5989CE6C249ADCA3007F1459 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		5989CE6C249ADCA3007F1459 /* MainViewObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewObject.swift; sourceTree = "<group>"; };
 		5989CE6E249B005C007F1459 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		59C7DAD3249C44140022525F /* BusinessCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -146,7 +146,7 @@
 		5989CE652499D8E5007F1459 /* Views + Cells */ = {
 			isa = PBXGroup;
 			children = (
-				5989CE6C249ADCA3007F1459 /* MainViewModel.swift */,
+				5989CE6C249ADCA3007F1459 /* MainViewObject.swift */,
 				59C7DAD3249C44140022525F /* BusinessCell.swift */,
 			);
 			path = "Views + Cells";
@@ -305,7 +305,7 @@
 				5989CE392499D269007F1459 /* ViewController.swift in Sources */,
 				59C7DAD4249C44140022525F /* BusinessCell.swift in Sources */,
 				5989CE352499D269007F1459 /* AppDelegate.swift in Sources */,
-				5989CE6D249ADCA3007F1459 /* MainViewModel.swift in Sources */,
+				5989CE6D249ADCA3007F1459 /* MainViewObject.swift in Sources */,
 				5989CE6B249ADBB8007F1459 /* MyModel.swift in Sources */,
 				5989CE372499D269007F1459 /* SceneDelegate.swift in Sources */,
 				5989CE69249AD60C007F1459 /* NetworkingCustom.swift in Sources */,

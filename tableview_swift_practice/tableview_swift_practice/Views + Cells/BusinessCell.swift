@@ -9,7 +9,7 @@
 import UIKit
 class BusinessCell: UITableViewCell {
     
-    var model = MainViewModel()
+    var model = MainViewObject()
     
     override func awakeFromNib() {
         super.awakeFromNib()
