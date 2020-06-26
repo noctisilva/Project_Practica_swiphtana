@@ -17,15 +17,6 @@ struct Business: Codable {
     var image_url: String?
     var price: String?
     var location: Location?
-    
-    
-    enum CodingKeys: String, CodingKey {
-        case id
-        case name
-        case image_url
-        case price
-        case location
-    }
 }
 struct Location: Codable {
     var address1: String?

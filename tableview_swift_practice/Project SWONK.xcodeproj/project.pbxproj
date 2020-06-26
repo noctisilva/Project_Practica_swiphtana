@@ -39,17 +39,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5989CE312499D269007F1459 /* tableview_swift_practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tableview_swift_practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5989CE312499D269007F1459 /* Project SWONK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project SWONK.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5989CE342499D269007F1459 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5989CE362499D269007F1459 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5989CE382499D269007F1459 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5989CE3D2499D26C007F1459 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5989CE402499D26C007F1459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5989CE422499D26C007F1459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5989CE472499D26C007F1459 /* tableview_swift_practiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableview_swift_practiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5989CE472499D26C007F1459 /* Project SWONKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project SWONKTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5989CE4B2499D26C007F1459 /* tableview_swift_practiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableview_swift_practiceTests.swift; sourceTree = "<group>"; };
 		5989CE4D2499D26C007F1459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5989CE522499D26C007F1459 /* tableview_swift_practiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableview_swift_practiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5989CE522499D26C007F1459 /* Project SWONKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project SWONKUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5989CE562499D26C007F1459 /* tableview_swift_practiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableview_swift_practiceUITests.swift; sourceTree = "<group>"; };
 		5989CE582499D26C007F1459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5989CE68249AD60C007F1459 /* NetworkingCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingCustom.swift; sourceTree = "<group>"; };
@@ -87,9 +87,9 @@
 		5989CE282499D268007F1459 = {
 			isa = PBXGroup;
 			children = (
-				5989CE332499D269007F1459 /* tableview_swift_practice */,
-				5989CE4A2499D26C007F1459 /* tableview_swift_practiceTests */,
-				5989CE552499D26C007F1459 /* tableview_swift_practiceUITests */,
+				5989CE332499D269007F1459 /* project_swonk */,
+				5989CE4A2499D26C007F1459 /* project_swonk_practiceTests */,
+				5989CE552499D26C007F1459 /* project_swonk_practiceUITests */,
 				5989CE322499D269007F1459 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,14 +97,14 @@
 		5989CE322499D269007F1459 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5989CE312499D269007F1459 /* tableview_swift_practice.app */,
-				5989CE472499D26C007F1459 /* tableview_swift_practiceTests.xctest */,
-				5989CE522499D26C007F1459 /* tableview_swift_practiceUITests.xctest */,
+				5989CE312499D269007F1459 /* Project SWONK.app */,
+				5989CE472499D26C007F1459 /* Project SWONKTests.xctest */,
+				5989CE522499D26C007F1459 /* Project SWONKUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5989CE332499D269007F1459 /* tableview_swift_practice */ = {
+		5989CE332499D269007F1459 /* project_swonk */ = {
 			isa = PBXGroup;
 			children = (
 				5989CE67249AD5F5007F1459 /* Networking */,
@@ -114,25 +114,25 @@
 				5989CE382499D269007F1459 /* ViewController.swift */,
 				5989CE422499D26C007F1459 /* Info.plist */,
 			);
-			path = tableview_swift_practice;
+			path = project_swonk;
 			sourceTree = "<group>";
 		};
-		5989CE4A2499D26C007F1459 /* tableview_swift_practiceTests */ = {
+		5989CE4A2499D26C007F1459 /* project_swonk_practiceTests */ = {
 			isa = PBXGroup;
 			children = (
 				5989CE4B2499D26C007F1459 /* tableview_swift_practiceTests.swift */,
 				5989CE4D2499D26C007F1459 /* Info.plist */,
 			);
-			path = tableview_swift_practiceTests;
+			path = project_swonk_practiceTests;
 			sourceTree = "<group>";
 		};
-		5989CE552499D26C007F1459 /* tableview_swift_practiceUITests */ = {
+		5989CE552499D26C007F1459 /* project_swonk_practiceUITests */ = {
 			isa = PBXGroup;
 			children = (
 				5989CE562499D26C007F1459 /* tableview_swift_practiceUITests.swift */,
 				5989CE582499D26C007F1459 /* Info.plist */,
 			);
-			path = tableview_swift_practiceUITests;
+			path = project_swonk_practiceUITests;
 			sourceTree = "<group>";
 		};
 		5989CE642499D8DC007F1459 /* Models */ = {
@@ -175,9 +175,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5989CE302499D268007F1459 /* tableview_swift_practice */ = {
+		5989CE302499D268007F1459 /* Project SWONK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5989CE5B2499D26C007F1459 /* Build configuration list for PBXNativeTarget "tableview_swift_practice" */;
+			buildConfigurationList = 5989CE5B2499D26C007F1459 /* Build configuration list for PBXNativeTarget "Project SWONK" */;
 			buildPhases = (
 				5989CE2D2499D268007F1459 /* Sources */,
 				5989CE2E2499D268007F1459 /* Frameworks */,
@@ -187,14 +187,14 @@
 			);
 			dependencies = (
 			);
-			name = tableview_swift_practice;
+			name = "Project SWONK";
 			productName = tableview_swift_practice;
-			productReference = 5989CE312499D269007F1459 /* tableview_swift_practice.app */;
+			productReference = 5989CE312499D269007F1459 /* Project SWONK.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5989CE462499D26C007F1459 /* tableview_swift_practiceTests */ = {
+		5989CE462499D26C007F1459 /* Project SWONKTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5989CE5E2499D26C007F1459 /* Build configuration list for PBXNativeTarget "tableview_swift_practiceTests" */;
+			buildConfigurationList = 5989CE5E2499D26C007F1459 /* Build configuration list for PBXNativeTarget "Project SWONKTests" */;
 			buildPhases = (
 				5989CE432499D26C007F1459 /* Sources */,
 				5989CE442499D26C007F1459 /* Frameworks */,
@@ -205,14 +205,14 @@
 			dependencies = (
 				5989CE492499D26C007F1459 /* PBXTargetDependency */,
 			);
-			name = tableview_swift_practiceTests;
+			name = "Project SWONKTests";
 			productName = tableview_swift_practiceTests;
-			productReference = 5989CE472499D26C007F1459 /* tableview_swift_practiceTests.xctest */;
+			productReference = 5989CE472499D26C007F1459 /* Project SWONKTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5989CE512499D26C007F1459 /* tableview_swift_practiceUITests */ = {
+		5989CE512499D26C007F1459 /* Project SWONKUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5989CE612499D26C007F1459 /* Build configuration list for PBXNativeTarget "tableview_swift_practiceUITests" */;
+			buildConfigurationList = 5989CE612499D26C007F1459 /* Build configuration list for PBXNativeTarget "Project SWONKUITests" */;
 			buildPhases = (
 				5989CE4E2499D26C007F1459 /* Sources */,
 				5989CE4F2499D26C007F1459 /* Frameworks */,
@@ -223,9 +223,9 @@
 			dependencies = (
 				5989CE542499D26C007F1459 /* PBXTargetDependency */,
 			);
-			name = tableview_swift_practiceUITests;
+			name = "Project SWONKUITests";
 			productName = tableview_swift_practiceUITests;
-			productReference = 5989CE522499D26C007F1459 /* tableview_swift_practiceUITests.xctest */;
+			productReference = 5989CE522499D26C007F1459 /* Project SWONKUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -251,7 +251,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5989CE2C2499D268007F1459 /* Build configuration list for PBXProject "tableview_swift_practice" */;
+			buildConfigurationList = 5989CE2C2499D268007F1459 /* Build configuration list for PBXProject "Project SWONK" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -264,9 +264,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5989CE302499D268007F1459 /* tableview_swift_practice */,
-				5989CE462499D26C007F1459 /* tableview_swift_practiceTests */,
-				5989CE512499D26C007F1459 /* tableview_swift_practiceUITests */,
+				5989CE302499D268007F1459 /* Project SWONK */,
+				5989CE462499D26C007F1459 /* Project SWONKTests */,
+				5989CE512499D26C007F1459 /* Project SWONKUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -334,12 +334,12 @@
 /* Begin PBXTargetDependency section */
 		5989CE492499D26C007F1459 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5989CE302499D268007F1459 /* tableview_swift_practice */;
+			target = 5989CE302499D268007F1459 /* Project SWONK */;
 			targetProxy = 5989CE482499D26C007F1459 /* PBXContainerItemProxy */;
 		};
 		5989CE542499D26C007F1459 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5989CE302499D268007F1459 /* tableview_swift_practice */;
+			target = 5989CE302499D268007F1459 /* Project SWONK */;
 			targetProxy = 5989CE532499D26C007F1459 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -524,7 +524,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tableview_swift_practice.app/tableview_swift_practice";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project SWONK.app/Project SWONK";
 			};
 			name = Debug;
 		};
@@ -546,7 +546,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tableview_swift_practice.app/tableview_swift_practice";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project SWONK.app/Project SWONK";
 			};
 			name = Release;
 		};
@@ -593,7 +593,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5989CE2C2499D268007F1459 /* Build configuration list for PBXProject "tableview_swift_practice" */ = {
+		5989CE2C2499D268007F1459 /* Build configuration list for PBXProject "Project SWONK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5989CE592499D26C007F1459 /* Debug */,
@@ -602,7 +602,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5989CE5B2499D26C007F1459 /* Build configuration list for PBXNativeTarget "tableview_swift_practice" */ = {
+		5989CE5B2499D26C007F1459 /* Build configuration list for PBXNativeTarget "Project SWONK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5989CE5C2499D26C007F1459 /* Debug */,
@@ -611,7 +611,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5989CE5E2499D26C007F1459 /* Build configuration list for PBXNativeTarget "tableview_swift_practiceTests" */ = {
+		5989CE5E2499D26C007F1459 /* Build configuration list for PBXNativeTarget "Project SWONKTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5989CE5F2499D26C007F1459 /* Debug */,
@@ -620,7 +620,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5989CE612499D26C007F1459 /* Build configuration list for PBXNativeTarget "tableview_swift_practiceUITests" */ = {
+		5989CE612499D26C007F1459 /* Build configuration list for PBXNativeTarget "Project SWONKUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5989CE622499D26C007F1459 /* Debug */,

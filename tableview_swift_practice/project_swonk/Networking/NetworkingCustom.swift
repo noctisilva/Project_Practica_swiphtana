@@ -42,9 +42,10 @@ class NetworkingCustom: NSObject {
             if let data = data {
                 let response = try! JSONDecoder().decode(Response.self, from: data)
                 let nested = response.businesses ?? []
-                for business in nested {
-                    self.businesses.append(business)
-                }
+//                for business in nested {
+//                    self.businesses.append(business)
+//                }
+                self.businesses = nested.map({ return $0 })
                 completionHandler(self.businesses)
             }
         })
